@@ -110,12 +110,14 @@ $(document).ready(function() {
         timerWrapper();
     }
     
+    
+
     var startScreen;
     var gameHTML;
     var counter = 30;
     var questionArray = ["What band 'Needed Somebody to Love'?", "What band didn't want to 'Stop Belivin'?", "What band went on a 'Magical Mystery Tour'?", "What band thought the President was an 'American Idiot'?", "What band 'Wanted it That Way'?", "What singer has 'Hands Touching Hands'?", "What band would walk '500 miles and would walk 500 more", "What band 'never got any satisfaction'? "];
     var answerArray = [["Journey", "David Bowie", "Queen", "Whitesnake"], ["Walk the Moon","Frankie Vallie and the Four Seasons","Foreigner","Journey"], ["The Beatles", "The Partridge Family", "Elvis Presley", "Frankie Vallie and the Four Seasons"], ["Foo Fighters","Goo Goo Dolls","Green Day","Panic! at the Disco"], ["*NSync", "98 Degrees", "Backstreet Boys", "2gether"], ["Tom Jones","John Bon Jovi","Bruce Springstien","Neil Diamond"], ["The Smiths", "The Proclaimers", "R.E.M.", "The Rembrants"], ["The Rolling Stones","The Doors","Ramones","The Who"]];
-    var imageArray = ["<img class='center-block img-right' src='img/queen.jpg'>", "<img class='center-block img-right' src='img/journey.jpg'>", "<img class='center-block img-right' src='img/thebeatles.jpg'>", "<img class='center-block img-right' src='img/greenday.jpg'>", "<img class='center-block img-right' src='img/bsb.jpg'>", "<img class='center-block img-right' src='img/nd.jpg'>", "<img class='center-block img-right' src='img/proclaimer.gif'>", "<img class='center-block img-right' src='img/rs.jpg'>"];
+    var imageArray = ["<img class='center-block img-right' src='images/queen.jpg'>", "<img class='center-block img-right' src='images/journey.jpg'>", "<img class='center-block img-right' src='images/thebeatles.jpg'>", "<img class='center-block img-right' src='images/greenday.jpg'>", "<img class='center-block img-right' src='images/bsb.jpg'>", "<img class='center-block img-right' src='images/nd.jpg'>", "<img class='center-block img-right' src='images/proclaimer.gif'>", "<img class='center-block img-right' src='images/rs.jpg'>"];
     var correctAnswers = ["C. Queen", "D. Journey", "A. The Beatles", "C. Green Day", "C. Backstreet Boys", "D. Neil Diamond", "B. The Proclaimers", "A. The Rolling Stones"];
     var questionCounter = 0;
     var selecterAnswer;
@@ -123,4 +125,5 @@ $(document).ready(function() {
     var correctTally = 0;
     var incorrectTally = 0;
     var unansweredTally = 0;
+    var clickSound = new Audio("images/gtr-jazz.mp3");
     
