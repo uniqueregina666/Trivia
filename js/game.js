@@ -59,7 +59,7 @@ $(document).ready(function() {
     
     function generateLoss() {
         incorrectTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='img/x.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='images/wrong.jpg'>";
         $(".mainArea").html(gameHTML);
         setTimeout(wait, 4000); //  change to 4000 or other amount
     }

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     height: 600px;
     background-color: rgba(0, 0, 0, 0);
+    font-family: 'Poiret One', cursive;
   }
   
   .main-button-container {
@@ -9,10 +10,12 @@
     max-width: 610px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Poiret One', cursive;
   }
   
   .timer-p {
     margin-top: 40px;
+    font-family: 'Poiret One', cursive;
   }
   
   .answer:hover {
@@ -27,6 +30,7 @@
     background-color: darkblue;
     opacity: 0.5;
     border-radius: 4px;
+    font-family: 'Poiret One', cursive;
   }
   
   .img-wrong {
@@ -35,22 +39,27 @@
   
   .first-answer {
     margin-top: 40px;
+    font-family: 'Poiret One', cursive;
   }
   
   .reset-button {
     margin-top: 40px;
+    font-family: 'Poiret One', cursive;
   }
   
   .summary-correct {
     margin-top: 40px;
+    font-family: 'Poiret One', cursive;
   }
   
   body {
     background-image: url("http://celebwallpapers.net/wp-content/uploads/2018/02/free-background-images-music-notes-awesome-music-background-image-of-free-background-images-music-notes.jpg");
     color: lightgray;
+    font-family: 'Poiret One', cursive;
+    
   }
   #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8 {
       width: 200px;
-      height:350px;
+      height: 350px;
 
   }
