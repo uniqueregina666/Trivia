@@ -16,15 +16,16 @@
   }
   
   .answer:hover {
-    background: pink;
+    background: lightseagreen;
   }
   
   .answer {
     padding-top: 7px;
     height: 45px;
-    color: black;
+    color: white;
     padding-left: 14px;
-    background-color: white;
+    background-color: darkblue;
+    opacity: 0.5;
     border-radius: 4px;
   }
   
@@ -45,6 +46,11 @@
   }
   
   body {
-    background-color: #DD0506;
-    color: white;
+    background-image: url("http://celebwallpapers.net/wp-content/uploads/2018/02/free-background-images-music-notes-awesome-music-background-image-of-free-background-images-music-notes.jpg");
+    color: lightgray;
+  }
+  #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8 {
+      width: 200px;
+      height:350px;
+
   }
